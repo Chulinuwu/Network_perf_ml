@@ -9,7 +9,8 @@ This project implements a Deep Learning model specifically designed to forecast 
 Predicting network throughput is critical for resource allocation and congestion management. This implementation transitions from simple packet classification to advanced time-series forecasting.
 
 ### 1.1 Data Source
-The model uses network traffic capture data (CSV format) containing packets with timestamps and lengths.
+The model uses network traffic capture data from the [Network Traffic Dataset](https://www.kaggle.com/datasets/ravikumargattu/network-traffic-dataset) on Kaggle. The specific file used for training and analysis in this project is `Midterm_53_group.csv`.
+
 
 ---
 

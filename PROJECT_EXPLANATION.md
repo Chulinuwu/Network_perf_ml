@@ -6,7 +6,10 @@
 
 ## 1. Data Preparation (การเตรียมข้อมูล)
 
+โครงการนี้ใช้ข้อมูลจาก [Network Traffic Dataset](https://www.kaggle.com/datasets/ravikumargattu/network-traffic-dataset) บน Kaggle โดยไฟล์หลักที่ใช้ในการวิเคราะห์และเทรนโมเดลคือ `Midterm_53_group.csv`
+
 ขั้นตอนนี้สำคัญที่สุด เพราะ "Garbage In, Garbage Out" หากข้อมูลไม่ดี โมเดลก็จะทายผิด
+
 
 ### 1.1 Time-Series Aggregation
 ```python
