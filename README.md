@@ -52,7 +52,51 @@ Predictions are transformed back from the log scale (using `np.expm1`) to their 
 
 ---
 
-## 5. Usage for Network Maintenance
 
-The output of the model can be used for **Predictive Alerting**:
-*   If the forecasted throughput exceeds a pre-defined threshold (e.g., 3x the average), the system can trigger an automated alert to prevent potential network congestion before it occurs.
+---
+
+## 6. Getting Started
+
+### 6.1 Prerequisites
+*   Python 3.9+
+*   Pip (Python package manager)
+
+### 6.2 Installation and Setup
+Follow these steps to set up the project on your local machine:
+
+1. **Clone the repository** (or navigate to the project folder):
+   ```bash
+   cd Network_intrusion_bot
+   ```
+
+2. **Create a virtual environment**:
+   ```bash
+   # Windows
+   python -m venv .venv
+
+   # macOS/Linux
+   python3 -m venv .venv
+   ```
+
+3. **Activate the virtual environment**:
+   ```bash
+   # Windows
+   .venv\Scripts\activate
+
+   # macOS/Linux
+   source .venv/bin/activate
+   ```
+
+4. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+5. **Register the kernel for Jupyter**:
+   ```bash
+   python -m ipykernel install --user --name=venv --display-name "Python (Network-Bot)"
+   ```
+
+6. **Launch the Notebook**:
+   Open `main_pipeline_2.ipynb` in VS Code or Jupyter and ensure the kernel is set to the created virtual environment.
+

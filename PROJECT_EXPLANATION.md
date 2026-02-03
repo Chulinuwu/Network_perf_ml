@@ -88,6 +88,32 @@ true_inv = np.expm1(y_test)
 
 ---
 
-## 5. สรุปความแตกต่างของเวอร์ชัน (RATIONALE)
-*   **Baseline Pipeline (main_pipeline.ipynb):** ใช้ MSE + ข้อมูลดิบ -> ผลคือโมเดลทายแต่ค่าเฉลี่ย เพราะกลัวค่า Spike
-*   **Pipeline 2 (main_pipeline_2.ipynb):** ใช้ Log + Smoothing + MAE + Bidirectional -> ผลคือโมเดลเห็น Trend ของเน็ตชัดขึ้นและกล้าทายค่าตามการขึ้นลงจริงของข้อมูล
+
+---
+
+## 6. การติดตั้งและใช้งาน (Getting Started)
+
+### 6.1 สิ่งที่ต้องมี
+*   Python 3.9 ขึ้นไป
+*   Pip
+
+### 6.2 ขั้นตอนการ Setup
+1. **สร้าง Virtual Environment**:
+   ```bash
+   python -m venv .venv
+   ```
+
+2. **Activate Virtual Environment**:
+   *   **Windows**: `.venv\Scripts\activate`
+   *   **macOS/Linux**: `source .venv/bin/activate`
+
+3. **ติดตั้ง Library ที่จำเป็น**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **ตั้งค่าสำหรับ Jupyter/VS Code**:
+   ```bash
+   python -m ipykernel install --user --name=venv --display-name "Python (Network-Bot)"
+   ```
+
