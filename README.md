@@ -66,7 +66,7 @@ Follow these steps to set up the project on your local machine:
 
 1. **Clone the repository** (or navigate to the project folder):
    ```bash
-   cd Network_intrusion_bot
+   cd THIS_REPOSITORY_DIR
    ```
 
 2. **Create a virtual environment**:
